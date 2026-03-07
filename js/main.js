@@ -21,11 +21,16 @@ document.addEventListener("DOMContentLoaded", () => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
       const targetId = this.getAttribute("href");
-      if (targetId === "#") return;
+
+      // Logo / blank hash → scroll to top
+      if (targetId === "#") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
 
       const targetElement = document.querySelector(targetId);
       if (targetElement) {
-        const headerOffset = 80; // Height of fixed header
+        const headerOffset = 90; // Height of fixed header
         const elementPosition = targetElement.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.scrollY - headerOffset;
 

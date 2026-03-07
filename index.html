@@ -25,9 +25,14 @@
     <!-- Header -->
     <header id="header">
       <div class="container header-container">
-        <div class="logo">
+        <a
+          href="#"
+          class="logo"
+          id="logo-home"
+          aria-label="Seva Sarthi Associates - Back to top"
+        >
           <img src="assets/images/logo.png" alt="Seva Sarthi Associates Logo" />
-        </div>
+        </a>
 
         <button class="mobile-menu-btn" aria-label="Toggle navigation">
           <span></span>
@@ -165,12 +170,26 @@
             </ul>
           </div>
 
-          <!-- Legal Advisory -->
+          <!-- Legal Advisory & Documentation -->
           <div class="service-card">
             <div class="icon-box">
               <img src="assets/icons/service_icon.png" alt="Icon" />
             </div>
-            <h3>Legal Advisory Services</h3>
+            <h3>Legal Advisory & Documentation</h3>
+            <ul>
+              <li>Lease Deeds, Sale Deeds & Agreements</li>
+              <li>Title Due Diligence & Property Verification</li>
+              <li>RERA Compliance & Regulatory Guidance</li>
+              <li>Post-Transaction Legal Support</li>
+            </ul>
+          </div>
+
+          <!-- Other Services -->
+          <div class="service-card">
+            <div class="icon-box">
+              <img src="assets/icons/service_icon.png" alt="Icon" />
+            </div>
+            <h3>Other Services</h3>
             <ul>
               <li>Property Documentation & Verification</li>
               <li>Lease Deeds, Sale Deeds & Agreements</li>
@@ -181,38 +200,96 @@
       </div>
     </section>
 
-    <!-- Founder's Note Section -->
-    <section id="founder" class="section">
+    <!-- Meet Our Partners Section -->
+    <section id="founder" class="section partners-section">
       <div class="container">
-        <div class="founder-grid">
-          <div class="founder-image">
-            <img
-              src="assets/images/vinod.jpeg"
-              alt="Mr. Vinod Kumar Badgujar"
-            />
-          </div>
-          <div class="founder-content">
-            <h5 class="section-subtitle">Founder's Note</h5>
-            <blockquote>
-              “At Seva Sarthi Associates, we believe our responsibility does not
-              end with closing a deal. True service continues even after the
-              transaction is completed. For over 15 years, we have built our
-              reputation on trust, transparency, and long-term relationships.”
-            </blockquote>
-            <p>
-              As a real estate company with strong legal advisory capabilities,
-              we remain available to our clients at every stage — before,
-              during, and long after the deal is concluded. With a strong
-              presence in Delhi NCR and services extending across India, our aim
-              is to provide dependable, legally secure, and professionally
-              managed real estate solutions that clients can rely on with
-              complete confidence.
-            </p>
+        <div class="section-header text-center">
+          <h5 class="section-subtitle">The Team Behind the Trust</h5>
+          <h2 class="section-title">Meet Our Partners</h2>
+          <div class="title-underline box-center"></div>
+        </div>
 
-            <div class="signature">
-              <h4>Vinod Kumar Badgujar</h4>
-              <p>Founder, Seva Sarthi Associates</p>
+        <div class="partners-grid">
+          <!-- Vinod Kumar Badgujar -->
+          <div class="partner-card">
+            <div class="partner-photo-wrap">
+              <img
+                src="assets/images/vinod.jpeg"
+                alt="Mr. Vinod Kumar Badgujar"
+                class="partner-photo"
+              />
+              <div class="partner-photo-ring"></div>
             </div>
+            <div class="partner-info">
+              <h3 class="partner-name">Vinod Kumar Badgujar</h3>
+              <span class="partner-role">Founder & Managing Director</span>
+              <p class="partner-bio">
+                With over 15 years of experience in commercial real estate,
+                Vinod has built Seva Sarthi on the twin pillars of trust and
+                transparency — guiding hundreds of clients through secure,
+                end-to-end property transactions.
+              </p>
+            </div>
+          </div>
+
+          <!-- Vishesh -->
+          <div class="partner-card">
+            <div class="partner-photo-wrap">
+              <img
+                src="assets/images/vishesh.jpeg"
+                alt="Mr. Vishesh"
+                class="partner-photo"
+                style="object-position: top"
+              />
+              <div class="partner-photo-ring"></div>
+            </div>
+            <div class="partner-info">
+              <h3 class="partner-name">Vishesh</h3>
+              <span class="partner-role">Partner & Head of Legal Advisory</span>
+              <p class="partner-bio">
+                Vishesh oversees all legal documentation, title due diligence,
+                and RERA compliance — ensuring every transaction is airtight,
+                transparent, and fully compliant with regulatory standards.
+              </p>
+            </div>
+          </div>
+
+          <!-- Sardar -->
+          <div class="partner-card">
+            <div class="partner-photo-wrap">
+              <img
+                src="assets/images/sardar.jpeg"
+                alt="Mr. Sardar"
+                class="partner-photo"
+              />
+              <div class="partner-photo-ring"></div>
+            </div>
+            <div class="partner-info">
+              <h3 class="partner-name">Sardar ji</h3>
+              <span class="partner-role"
+                >Partner & Business Development Head</span
+              >
+              <p class="partner-bio">
+                Sardar drives strategic growth and client relations across Delhi
+                NCR and beyond — connecting businesses with the right commercial
+                spaces and industrial properties to fuel their ambitions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Founder Quote Strip -->
+        <div class="founder-quote-strip">
+          <div class="quote-icon">"</div>
+          <blockquote class="founder-blockquote">
+            At Seva Sarthi Associates, we believe our responsibility does not
+            end with closing a deal. True service continues even after the
+            transaction is completed. For over 15 years, we have built our
+            reputation on trust, transparency, and long-term relationships.
+          </blockquote>
+          <div class="quote-attribution">
+            <span class="quote-name">Vinod Kumar Badgujar</span>
+            <span class="quote-title">Founder, Seva Sarthi Associates</span>
           </div>
         </div>
       </div>
@@ -223,11 +300,7 @@
       <div class="container">
         <div class="footer-grid">
           <div class="footer-brand">
-            <img
-              src="assets/images/logo.png"
-              alt="Seva Sarthi Logo"
-              class="footer-logo"
-            />
+            <div class="footer-text">SEVA SARTHI</div>
             <p class="tagline">
               A Real Estate Company with Legal Advisory & Consultation Services
             </p>
