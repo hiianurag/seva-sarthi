@@ -1,10 +1,10 @@
 # Seva Sarthi Associates - Official Website
 
-A modern, professional, and fully responsive Single Page Application (SPA) for **Seva Sarthi Associates**, a premier real estate and legal advisory firm based in Delhi NCR.
+A modern, professional, and fully responsive Single Page Application (SPA) for **Seva Sarthi Associates**, a premier real estate and advisory firm based in Delhi NCR.
 
 ## 📖 Project Overview
 
-This website serves as the digital presence for Seva Sarthi Associates, showcasing their expertise in commercial real estate, industrial plots, interior designing, and legal advisory services. The design is tailored to reflect trust, transparency, and professionalism with a corporate White & Blue theme.
+This website serves as the digital presence for Seva Sarthi Associates, showcasing their expertise in commercial real estate, industrial plots, interior designing, and advisory services. The design is tailored to reflect trust, transparency, and professionalism with a corporate White & Blue theme.
 
 ## ✨ Features
 
